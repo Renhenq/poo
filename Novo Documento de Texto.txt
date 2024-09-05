@@ -1,0 +1,63 @@
+public class infos {
+    candidato1 = new candidato;
+    candidato2 = new candidato;
+    candidato3 = new candidato;
+
+    candidato1.criar_candidato(
+            "Maria das Dores de Souza",
+            "02/03/1966",
+            "F",
+            50.000,
+            False,
+            10 ,
+            "Vereador"
+            );
+
+    candidato2.criar_candidato(
+            "Claudinete do nascimento",
+            "22/05/1986",
+            "F",
+            70.000,00 ,
+            False,
+            55,
+            "Vereador"
+            );
+
+    candidato3.criar_candidato(
+            "Jose Nelson Santos Madureira",
+            "01/01/1964",
+            "M",
+            306.500,
+            False,
+            77,
+            "Prefeito"
+            )
+}
+
+
+
+...
+
+
+public class candidato{
+    public String Nome;
+    public String Data_de_nascimento;
+    public String Genero;
+    float Bens;
+    boolean Reeleicao;
+    int Partido;
+    public String Cargo;
+
+    public criar_candidato(String nome, String data_de_nascimento, String genero, float bens, boolean reeleicao,
+    int partido, String cargo){
+        Nome = nome;
+        Data_de_nascimento = data_de_nascimento;
+        Genero = genero;
+        Bens = bens;
+        Reeleicao = reeleicao;
+        Partido = partido;
+        Cargo = cargo;
+    }
+
+    public can
+}
