@@ -2,7 +2,7 @@ public class infos {
     candidato1 = new candidato;
     candidato2 = new candidato;
     candidato3 = new candidato;
-
+    // Laranjeiras
     candidato1.criar_candidato(
             "Maria das Dores de Souza",
             "02/03/1966",
@@ -38,6 +38,34 @@ public class infos {
 
 ...
 
+public class criando_candidato{
+    candidato c1, c2, c3;
+
+    c1.Nome = "Maria das Dores de Souza";
+    c1.Data_de_nascimento = "02/03/1966";
+    c1.Genero = "F";
+    c1.Bens = 50.000;
+    c1.Reeleicao = False;
+    c1.Partido = 10;
+    c1.Cargo = "Vereador";
+
+    c2.Nome = "Claudinete do nascimento";
+    c2.Data_de_nascimento = "22/05/1986";
+    c2.Genero = "F";
+    c2.Bens = 70.000,00;
+    c2.Reeleicao = False;
+    C2.Partido = 55;
+    c2.Cargo = "Vereador";
+
+    
+    c3.Nome = "Jose Nelson Santos Madureira",
+    c3.Data_de_nascimento = "01/01/1964";
+    c3.Genero = "M";
+    c3.Bens = 306.500;
+    c3.Reeleicao = False;
+    c3.Partido = 77;
+    c3.Cargo = "Prefeito";
+}
 
 public class candidato{
     public String Nome;
@@ -47,6 +75,20 @@ public class candidato{
     boolean Reeleicao;
     int Partido;
     public String Cargo;
+
+    public candidato(){
+        Nome = "";
+        Data_de_nascimento = "";
+        Genero = "";
+        Bens = 0;
+        Reeleicao = False;
+        Partido = 0;
+        Cargo = "";
+    }
+
+    public void mostrar(){
+        System.out.println("Candidat)
+    }   
 
     public criar_candidato(String nome, String data_de_nascimento, String genero, float bens, boolean reeleicao,
     int partido, String cargo){
